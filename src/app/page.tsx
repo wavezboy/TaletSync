@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Companies from "@/components/Companies";
 import Why from "@/components/Why";
+import Shopify from "@/components/Shopify";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col justify-between">
@@ -17,6 +18,10 @@ export default function Home() {
 
       <div className="mt-[192px] ml-[160px]">
         <Why />
+      </div>
+
+      <div className="mt-[187px] ml-[160px]">
+        <Shopify />
       </div>
     </main>
   );
