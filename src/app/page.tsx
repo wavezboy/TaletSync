@@ -5,16 +5,17 @@ import Why from "@/components/Why";
 import Shopify from "@/components/Shopify";
 import Faqs from "@/components/Faqs";
 import Ready from "@/components/Ready";
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col justify-between">
-      <section className="bg-[url('/bg.svg')] mx-auto bg-cover h-[868px]">
+      <section className="bg-[url('/bg.svg')] ml-[160px] bg-cover h-[868px]">
         <Navbar />
         <div className="mt-[160px] ml-[32px]">
           <Hero />
         </div>
       </section>
-      <div className="mt-[200px] ml-[32px]">
+      <div className="mt-[200px] ml-[162px]">
         <Companies />
       </div>
 
@@ -32,6 +33,10 @@ export default function Home() {
 
       <div className=" mt-[96px] ml-[160px]">
         <Ready />
+      </div>
+
+      <div className="mt-[96px] ml-[160px]">
+        <Footer />
       </div>
     </main>
   );
