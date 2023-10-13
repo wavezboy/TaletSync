@@ -4,8 +4,8 @@ import Companies from "@/components/Companies";
 import Why from "@/components/Why";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
-      <section className="bg-[url('/bg.svg')] bg-cover h-[868px]">
+    <main className="flex min-h-screen flex-col justify-between">
+      <section className="bg-[url('/bg.svg')] mx-auto bg-cover h-[868px]">
         <Navbar />
         <div className="mt-[160px] ml-[32px]">
           <Hero />
@@ -15,7 +15,7 @@ export default function Home() {
         <Companies />
       </div>
 
-      <div className="mt-[192px] ml-[32px]">
+      <div className="mt-[192px] ml-[160px]">
         <Why />
       </div>
     </main>
