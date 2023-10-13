@@ -3,6 +3,8 @@ import Hero from "@/components/Hero";
 import Companies from "@/components/Companies";
 import Why from "@/components/Why";
 import Shopify from "@/components/Shopify";
+import Faqs from "@/components/Faqs";
+import Ready from "@/components/Ready";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col justify-between">
@@ -22,6 +24,14 @@ export default function Home() {
 
       <div className="mt-[187px] ml-[160px]">
         <Shopify />
+      </div>
+
+      <div className="mt-[194px] ml-[160px]">
+        <Faqs />
+      </div>
+
+      <div className=" mt-[96px] ml-[160px]">
+        <Ready />
       </div>
     </main>
   );
