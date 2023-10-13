@@ -1,18 +1,57 @@
 import React from "react";
-import { Inter } from "next/font/google";
 
 export default function Navbar() {
   return (
     <nav className="w-[1472px] h-[84px] bg-[#F2F4F7] rounded-[100px] border-[1px] mt-[40px] border-[#D0D5DD]">
-      <div>
+      <div className="flex items-center h-full justify-between w-full px-[32px]">
         <Logo />
 
         {/* dropdown */}
 
-        <div>
-          <p className="font-Grotesk text-[18px] font-semibold text-[#2d4b8b]">
-            Products
-          </p>
+        <div className="flex gap-[40px]">
+          <div className="flex items-center gap-[6px] ">
+            <p className="font-Inter text-[18px] font-semibold text-[#667085]">
+              Products
+            </p>
+            <ArrowDown />
+          </div>
+
+          <div className="flex items-center gap-[6px]">
+            <p className="font-Inter text-[18px] font-semibold text-[#667085]">
+              Solutions
+            </p>
+            <ArrowDown />
+          </div>
+
+          <div className="flex items-center gap-[6px]">
+            <p className="font-Inter text-[18px] font-semibold text-[#667085]">
+              Resources
+            </p>
+            <ArrowDown />
+          </div>
+
+          <div className="flex items-center gap-[6px]">
+            <p className="font-Inter text-[18px] font-semibold text-[#667085]">
+              Pricing
+            </p>
+          </div>
+        </div>
+
+        <div className="flex gap-[8px]">
+          <div>
+            <button className="w-[144px] h-[52px] bg-[#FFF] border border-[#98A2B3] rounded-[100px]">
+              <p className="font-Inter text-[16px] font-semibold text-[#101828]">
+                Talk to sales
+              </p>
+            </button>
+          </div>
+          <div>
+            <button className="w-[167px] h-[52px] bg-[#175CD3] border border-[#98A2B3] rounded-[100px]">
+              <p className="font-Inter text-[16px] font-semibold text-white">
+                Sign up for free
+              </p>
+            </button>
+          </div>
         </div>
       </div>
     </nav>
@@ -42,6 +81,24 @@ const Logo = () => (
     <path
       d="M148.627 23.6875C148.11 23.6875 147.667 23.5057 147.298 23.142C146.928 22.7784 146.747 22.3352 146.752 21.8125C146.747 21.3011 146.928 20.8636 147.298 20.5C147.667 20.1364 148.11 19.9545 148.627 19.9545C149.127 19.9545 149.562 20.1364 149.931 20.5C150.306 20.8636 150.497 21.3011 150.502 21.8125C150.497 22.1591 150.406 22.4744 150.23 22.7585C150.059 23.0426 149.832 23.2699 149.548 23.4403C149.269 23.6051 148.963 23.6875 148.627 23.6875Z"
       fill="#528BFF"
+    />
+  </svg>
+);
+
+const ArrowDown = () => (
+  <svg
+    width="19"
+    height="18"
+    viewBox="0 0 19 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M5.19183 6.75L9.69183 11.25L14.1918 6.75"
+      stroke="#667085"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     />
   </svg>
 );
