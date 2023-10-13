@@ -53,7 +53,7 @@ export default function Hero() {
                 <Image src="/4.svg" alt="" width={40} height={40} />
               </div>
             </div>
-            <div className="absolute left-[250px]">
+            <div className="absolute left-[330px]">
               <div className="flex gap-[4px]">
                 <Star />
                 <Star />
