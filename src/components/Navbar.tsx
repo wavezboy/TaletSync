@@ -9,32 +9,32 @@ export default function Navbar() {
         {/* dropdown */}
 
         <div className="flex gap-[40px]">
-          <div className="flex items-center gap-[6px] ">
+          <button className="flex items-center gap-[6px] ">
             <p className="font-Inter text-[18px] font-semibold text-[#667085]">
               Products
             </p>
             <ArrowDown />
-          </div>
+          </button>
 
-          <div className="flex items-center gap-[6px]">
+          <button className="flex items-center gap-[6px]">
             <p className="font-Inter text-[18px] font-semibold text-[#667085]">
               Solutions
             </p>
             <ArrowDown />
-          </div>
+          </button>
 
-          <div className="flex items-center gap-[6px]">
+          <button className="flex items-center gap-[6px]">
             <p className="font-Inter text-[18px] font-semibold text-[#667085]">
               Resources
             </p>
             <ArrowDown />
-          </div>
+          </button>
 
-          <div className="flex items-center gap-[6px]">
+          <button className="flex items-center gap-[6px]">
             <p className="font-Inter text-[18px] font-semibold text-[#667085]">
               Pricing
             </p>
-          </div>
+          </button>
         </div>
 
         <div className="flex gap-[8px]">
