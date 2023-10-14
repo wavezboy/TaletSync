@@ -4,7 +4,9 @@ export default function Navbar() {
   return (
     <nav className="w-[1472px] mx-auto max-w-full h-[84px] bg-[#F2F4F7] rounded-[100px] border-[1px] mt-[40px] border-[#D0D5DD]">
       <div className="flex items-center h-full justify-between w-full px-[32px]">
-        <Logo />
+        <button>
+          <Logo />
+        </button>
 
         {/* dropdown */}
 
