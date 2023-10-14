@@ -30,12 +30,12 @@ export default function Shopify() {
               Project Manager, Shopify
             </span>
           </div>
-          <div className="ml-[200px]">
+          <button className="ml-[200px]">
             <ArrowRight />
-          </div>
-          <div className="ml-[32px]">
+          </button>
+          <button className="ml-[32px]">
             <ArrowLeft />
-          </div>
+          </button>
         </div>
       </div>
 

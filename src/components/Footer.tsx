@@ -140,8 +140,12 @@ export default function Footer() {
           <span className="text-[16px] font-semibold font-Inter text-[#004EEB]">
             Get the app
           </span>
-          <AppStore />
-          <Playstore />
+          <button>
+            <AppStore />
+          </button>
+          <button>
+            <Playstore />
+          </button>
         </div>
       </div>
       <div className="flex items-center justify-between mt-[96px] mb-[48px] w-[1402px] max-w-full mx-auto">

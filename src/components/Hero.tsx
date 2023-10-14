@@ -27,16 +27,16 @@ export default function Hero() {
               </p>
             </button>
 
-            <div className="flex items-center gap-[12px]">
+            <button className="flex items-center gap-[12px]">
               <Robot />
               <p className="text-[#175CD3] text-[18px] font-Inter font-semibold">
                 Discover AI assistant
               </p>
-            </div>
+            </button>
           </div>
 
           <div className="mt-[48px]">
-            <div className="w-full relative">
+            <button type="button" className="w-full relative">
               <div className="absolute">
                 <Image src="/Avatar.svg" alt="" width={40} height={40} />
               </div>
@@ -52,7 +52,7 @@ export default function Hero() {
               <div className="absolute left-[120px]">
                 <Image src="/4.svg" alt="" width={40} height={40} />
               </div>
-            </div>
+            </button>
             <div className="ml-[200px]">
               <div className="flex gap-[4px]">
                 <Star />
@@ -97,24 +97,24 @@ export default function Hero() {
           </div>
 
           <div className="flex gap-[16px] mt-[40px] justify-center">
-            <div className="h-[44px] w-[44px] flex items-center justify-center rounded-full bg-white border border-[#D1E9F]">
+            <button className="h-[44px] w-[44px] flex items-center justify-center rounded-full bg-white border border-[#D1E9F]">
               <Mic />
-            </div>
-            <div className="h-[44px] w-[44px] flex items-center justify-center rounded-full bg-white border border-[#D1E9F]">
+            </button>
+            <button className="h-[44px] w-[44px] flex items-center justify-center rounded-full bg-white border border-[#D1E9F]">
               <Cam />
-            </div>
-            <div className="h-[44px] w-[44px] flex items-center justify-center rounded-full bg-white border border-[#D1E9F]">
+            </button>
+            <button className="h-[44px] w-[44px] flex items-center justify-center rounded-full bg-white border border-[#D1E9F]">
               <Monitor />
-            </div>
-            <div className="h-[44px] w-[44px] flex items-center justify-center rounded-full bg-white border border-[#D1E9F]">
+            </button>
+            <button className="h-[44px] w-[44px] flex items-center justify-center rounded-full bg-white border border-[#D1E9F]">
               <Emoji />
-            </div>
-            <div className="h-[44px] w-[44px] flex items-center justify-center rounded-full bg-white border border-[#D1E9F]">
+            </button>
+            <button className="h-[44px] w-[44px] flex items-center justify-center rounded-full bg-white border border-[#D1E9F]">
               <Message />
-            </div>
-            <div className="h-[44px] w-[44px] flex items-center justify-center rounded-full bg-white border border-[#D1E9F]">
+            </button>
+            <button className="h-[44px] w-[44px] flex items-center justify-center rounded-full bg-white border border-[#D1E9F]">
               <Setting />
-            </div>
+            </button>
           </div>
         </div>
       </div>
