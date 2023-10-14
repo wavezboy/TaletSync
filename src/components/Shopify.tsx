@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Shopify() {
   return (
-    <div className="flex gap-[64px] items-center">
-      <div>
+    <div className="flex gap-5 2xl:gap-[64px] items-center w-[1402px] max-w-full mx-auto overflow-hidden">
+      <div className="w-1/2">
         <ShopifyLogo />
 
         <div className="flex gap-[4px] mt-[48px]">
@@ -15,7 +15,7 @@ export default function Shopify() {
           <Star />
         </div>
 
-        <p className="text-[44px] font-bold font-Inter w-[640px] mt-[48px]">
+        <p className="text-[35px] 2xl:text-[44px] font-medium font-Inter w-[640px] max-w-full mt-[48px]">
           ClearLink has upgraded our remote meetings. High-quality video, screen
           sharing, and top-notch security make it essential for our team.
         </p>
@@ -31,16 +31,23 @@ export default function Shopify() {
             </span>
           </div>
           <div className="ml-[200px]">
-            <ArrowLeft />
+            <ArrowRight />
           </div>
           <div className="ml-[32px]">
-            <ArrowRight />
+            <ArrowLeft />
           </div>
         </div>
       </div>
 
       <div className="w-[640px] px-[32px] h-[496px]">
-        <Image src="/Contents.svg" alt="" width={576} height={496} />
+        <Image
+          src="/Contents.svg"
+          alt=""
+          width={0}
+          height={0}
+          sizes="100vw"
+          className="min-w-[700px]"
+        />
       </div>
     </div>
   );

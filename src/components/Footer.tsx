@@ -4,8 +4,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div>
-      {" "}
-      <div className="flex gap-[109px]">
+      <div className="flex justify-between w-[1402px] max-w-full mx-auto">
         <div>
           <Logo />
           <p className="text-[18px] text-[#475467] font-Inter w-[400px] font-normal mt-[32px]">
@@ -14,138 +13,138 @@ export default function Footer() {
           </p>
         </div>
         <div className="flex flex-col gap-[16px]">
-          <p className="text-[16px] font-semibold text-[#667085] font-Inter">
+          <span className="text-[16px] font-semibold text-[#667085] font-Inter">
             Product
-          </p>
+          </span>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               Overview
-            </p>
+            </span>
           </Link>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               Features
-            </p>
+            </span>
           </Link>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               Solutions
-            </p>
+            </span>
           </Link>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               Tutorials
-            </p>
+            </span>
           </Link>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               Pricing
-            </p>
+            </span>
           </Link>
         </div>
 
         <div className="flex flex-col gap-[16px]">
-          <p className="text-[16px] font-semibold text-[#667085] font-Inter">
+          <span className="text-[16px] font-semibold text-[#667085] font-Inter">
             Company
-          </p>
+          </span>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               About Us
-            </p>
+            </span>
           </Link>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               Careers
-            </p>
+            </span>
           </Link>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               Press
-            </p>
+            </span>
           </Link>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               News
-            </p>
+            </span>
           </Link>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               Contact
-            </p>
+            </span>
           </Link>
         </div>
 
         <div className="flex flex-col gap-[16px]">
-          <p className="text-[16px] font-semibold text-[#667085] font-Inter">
+          <span className="text-[16px] font-semibold text-[#667085] font-Inter">
             Resources
-          </p>
+          </span>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               Blog
-            </p>
+            </span>
           </Link>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               Events
-            </p>
+            </span>
           </Link>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               Help Centre
-            </p>
+            </span>
           </Link>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               Tutorials
-            </p>
+            </span>
           </Link>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               Support
-            </p>
+            </span>
           </Link>
         </div>
 
         <div className="flex flex-col gap-[16px]">
-          <p className="text-[16px] font-semibold text-[#667085] font-Inter">
+          <span className="text-[16px] font-semibold text-[#667085] font-Inter">
             Legal
-          </p>
+          </span>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               Terms
-            </p>
+            </span>
           </Link>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               Privacy
-            </p>
+            </span>
           </Link>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               Cookies
-            </p>
+            </span>
           </Link>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               Licences
-            </p>
+            </span>
           </Link>
           <Link href="/">
-            <p className="text-[20px] font-bold text-[#475467] font-Inter">
+            <span className="text-lg font-semibold no-underline text-[#475467] font-Inter">
               Contact
-            </p>
+            </span>
           </Link>
         </div>
 
         <div className="flex gap-[16px] flex-col">
-          <p className="text-[16px] font-semibold font-Inter text-[#004EEB]">
+          <span className="text-[16px] font-semibold font-Inter text-[#004EEB]">
             Get the app
-          </p>
+          </span>
           <AppStore />
           <Playstore />
         </div>
       </div>
-      <div className="flex items-center justify-between mt-[96px] mb-[48px]">
+      <div className="flex items-center justify-between mt-[96px] mb-[48px] w-[1402px] max-w-full mx-auto">
         <p className="text-[16px] font-normal font-Inter text-[#667085]">
           © 2023 ClearLink. All rights reserved.
         </p>

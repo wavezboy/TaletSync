@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 export default function Why() {
   return (
-    <div className="">
+    <div className=" w-[1402px] max-w-full mx-auto">
       <p className="text-[18px] font-semibold font-Inter text-[#175CD3]">
         The ClearLink Advantage
       </p>
@@ -18,14 +18,13 @@ export default function Why() {
 
       <div className="mt-[96px] flex gap-[104px]">
         <div>
-          {" "}
           <div className="flex gap-[40px]">
             <div>
               <Video />
               <p className="text-[24px] mt-[36px] text-[#101828] font-Inter font-semibold">
                 Crystal-clear HD video
               </p>
-              <span className="block text-[#475467] text-[18px] font-Inter font-normal w-[360px]">
+              <span className="block text-[#475467] text-[18px] font-Inter font-normal">
                 No more pixelation or blurriness – just stunning, lifelike
                 clarity that brings your team closer in meetings.
               </span>
@@ -35,12 +34,12 @@ export default function Why() {
               <p className="text-[24px] mt-[36px] text-[#101828] font-Inter font-semibold">
                 Noise-canceling audio
               </p>
-              <span className="block text-[#475467] text-[18px] font-Inter font-normal w-[360px]">
+              <span className="block text-[#475467] text-[18px] font-Inter font-normal">
                 Say goodbye to distractions with our advanced audio tech for
                 crisp, interruption-free conversations.
               </span>
 
-              <button className="mt-[20px]">
+              <button title="button" className="mt-[20px]">
                 <ArrowRight />
               </button>
             </div>
@@ -51,10 +50,10 @@ export default function Why() {
               <p className="text-[24px] mt-[36px] text-[#101828] font-Inter font-semibold">
                 Scheduling made easy
               </p>
-              <span className="block text-[#475467] text-[18px] font-Inter font-normal w-[360px]">
-                Streamline your agenda with ClearLink's intuitive scheduling.
-                Set up meetings, send invitations, and receive reminders in one
-                place.
+              <span className="block text-[#475467] text-[18px] font-Inter font-normal">
+                Streamline your agenda with ClearLink&apos;s intuitive
+                scheduling. Set up meetings, send invitations, and receive
+                reminders in one place.
               </span>
             </div>
             <div className="">
@@ -62,7 +61,7 @@ export default function Why() {
               <p className="text-[24px] mt-[36px] text-[#101828] font-Inter font-semibold">
                 Bank-grade security
               </p>
-              <span className="block text-[#475467] text-[18px] font-Inter font-normal w-[360px]">
+              <span className="block text-[#475467] text-[18px] font-Inter font-normal">
                 Your privacy is our priority with bank-grade security protocols
                 safeguarding your meetings and data from unwanted intruders.
               </span>

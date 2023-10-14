@@ -3,14 +3,14 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section>
+    <section className="w-[1408px] max-w-full mx-auto">
       <div className="flex">
-        <div>
-          <div className="w-[780px]">
+        <div className="w-[60%]">
+          <h1>
             <span className="block text-[64px] font-semibold font-Inter w-[600px]">
               Uniting the world,
             </span>
-            <span className="block leading-[32px] text-[64px] font-semibold font-Inter">
+            <span className="block text-[64px] font-semibold font-Inter">
               {" "}
               one video call at a time
             </span>
@@ -18,7 +18,7 @@ export default function Hero() {
               Experience the future of communication with ClearLink – where
               crystal-clear video conferencing meets unparalleled simplicity.
             </span>
-          </div>
+          </h1>
 
           <div className="flex gap-[20px] mt-[48px]">
             <button className="w-[221px] h-[60px] rounded-[100px] bg-[#175CD3] ">
@@ -53,7 +53,7 @@ export default function Hero() {
                 <Image src="/4.svg" alt="" width={40} height={40} />
               </div>
             </div>
-            <div className="absolute left-[400px]">
+            <div className="ml-[200px]">
               <div className="flex gap-[4px]">
                 <Star />
                 <Star />
@@ -70,7 +70,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="w-[584px] h-[488px] bg-[#EFF8FF]  p-[32px] rounded-[16px] border border-[#B2DDFF]">
+        <div className="w-[40%] h-[488px] bg-[#EFF8FF]  p-[32px] rounded-[16px] border border-[#B2DDFF]">
           <div className="flex flex-col gap-[20px] ">
             <div className="flex gap-[20px]">
               <div className="w-[160px] h-[160px]">

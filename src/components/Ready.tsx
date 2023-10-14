@@ -2,9 +2,9 @@ import React from "react";
 import Image from "next/image";
 export default function Ready() {
   return (
-    <div className="flex gap-[125px] items-center">
+    <div className="flex gap-[125px] items-center w-[1402px] max-w-full mx-auto">
       <div>
-        <p className="text-[48px] font-semibold font-Inter w-[600px] text-[#101828]">
+        <p className="text-[35px] 2xl:text-[48px] font-semibold font-Inter w-[600px] text-[#101828]">
           Ready to clear the path to perfect communication?
         </p>
         <div className="ml-[16px] mt-[32px] flex gap-[12px] items-center">

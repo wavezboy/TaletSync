@@ -17,3 +17,11 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+p {
+  margin-bottom: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
